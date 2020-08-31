@@ -1,0 +1,20 @@
+{
+  "name": "graphql-blog-express",
+  "version": "0.1.0",
+  "description": "Proof of concept express.js application to act as web middleware for a graphql-powered blog.",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-ejs-layouts": "^2.5.0",
+    "express-formidable": "^1.2.0",
+    "node-fetch": "^2.6.0"
+  },
+  "license": "MIT"
+}
